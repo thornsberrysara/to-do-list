@@ -73,7 +73,12 @@ button {
 }
 
 @media screen and (max-width: 600px) {
+  * {
+    background-color: #f7cbc2;
+  }
+
   .App {
     height: 100vh;
+    margin-top: 20vh;
   }
 }
