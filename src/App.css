@@ -9,6 +9,11 @@ i {
   color: #fce8e4;
   position: absolute;
   right: 30px;
+  font-size: 16px;
+}
+
+i:hover {
+  color: rgb(228, 228, 228);
 }
 
 i:hover,
@@ -36,6 +41,8 @@ body {
 input {
   background-color: transparent;
   border: none;
+  width: 220px;
+  font-size: 14px;
 }
 
 #to-do-form input {
