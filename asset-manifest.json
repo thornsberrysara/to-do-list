@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/thornsberrysara/to-do-list/static/css/main.23206704.chunk.css",
-    "main.js": "/thornsberrysara/to-do-list/static/js/main.91d3494e.chunk.js",
-    "main.js.map": "/thornsberrysara/to-do-list/static/js/main.91d3494e.chunk.js.map",
-    "runtime-main.js": "/thornsberrysara/to-do-list/static/js/runtime-main.cfadd903.js",
-    "runtime-main.js.map": "/thornsberrysara/to-do-list/static/js/runtime-main.cfadd903.js.map",
-    "static/js/2.f860dc33.chunk.js": "/thornsberrysara/to-do-list/static/js/2.f860dc33.chunk.js",
-    "static/js/2.f860dc33.chunk.js.map": "/thornsberrysara/to-do-list/static/js/2.f860dc33.chunk.js.map",
-    "index.html": "/thornsberrysara/to-do-list/index.html",
-    "precache-manifest.c097eeb06f454b049368bfc205760fb6.js": "/thornsberrysara/to-do-list/precache-manifest.c097eeb06f454b049368bfc205760fb6.js",
-    "service-worker.js": "/thornsberrysara/to-do-list/service-worker.js",
-    "static/css/main.23206704.chunk.css.map": "/thornsberrysara/to-do-list/static/css/main.23206704.chunk.css.map",
-    "static/js/2.f860dc33.chunk.js.LICENSE.txt": "/thornsberrysara/to-do-list/static/js/2.f860dc33.chunk.js.LICENSE.txt"
+    "main.css": "/to-do-list/static/css/main.23206704.chunk.css",
+    "main.js": "/to-do-list/static/js/main.3ef9cf0d.chunk.js",
+    "main.js.map": "/to-do-list/static/js/main.3ef9cf0d.chunk.js.map",
+    "runtime-main.js": "/to-do-list/static/js/runtime-main.65d94b1a.js",
+    "runtime-main.js.map": "/to-do-list/static/js/runtime-main.65d94b1a.js.map",
+    "static/js/2.f860dc33.chunk.js": "/to-do-list/static/js/2.f860dc33.chunk.js",
+    "static/js/2.f860dc33.chunk.js.map": "/to-do-list/static/js/2.f860dc33.chunk.js.map",
+    "index.html": "/to-do-list/index.html",
+    "precache-manifest.69e3ec71833f99249d7953bf56920c00.js": "/to-do-list/precache-manifest.69e3ec71833f99249d7953bf56920c00.js",
+    "service-worker.js": "/to-do-list/service-worker.js",
+    "static/css/main.23206704.chunk.css.map": "/to-do-list/static/css/main.23206704.chunk.css.map",
+    "static/js/2.f860dc33.chunk.js.LICENSE.txt": "/to-do-list/static/js/2.f860dc33.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.cfadd903.js",
+    "static/js/runtime-main.65d94b1a.js",
     "static/js/2.f860dc33.chunk.js",
     "static/css/main.23206704.chunk.css",
-    "static/js/main.91d3494e.chunk.js"
+    "static/js/main.3ef9cf0d.chunk.js"
   ]
 }
