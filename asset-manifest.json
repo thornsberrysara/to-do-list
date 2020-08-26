@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/git@github.com:thornsberrysara/to-do-list.git/static/css/main.23206704.chunk.css",
-    "main.js": "/git@github.com:thornsberrysara/to-do-list.git/static/js/main.2a8eccc5.chunk.js",
-    "main.js.map": "/git@github.com:thornsberrysara/to-do-list.git/static/js/main.2a8eccc5.chunk.js.map",
-    "runtime-main.js": "/git@github.com:thornsberrysara/to-do-list.git/static/js/runtime-main.6953aa6d.js",
-    "runtime-main.js.map": "/git@github.com:thornsberrysara/to-do-list.git/static/js/runtime-main.6953aa6d.js.map",
-    "static/js/2.f860dc33.chunk.js": "/git@github.com:thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js",
-    "static/js/2.f860dc33.chunk.js.map": "/git@github.com:thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js.map",
-    "index.html": "/git@github.com:thornsberrysara/to-do-list.git/index.html",
-    "precache-manifest.6d22f440bb798031b3ff63fb094fbf74.js": "/git@github.com:thornsberrysara/to-do-list.git/precache-manifest.6d22f440bb798031b3ff63fb094fbf74.js",
-    "service-worker.js": "/git@github.com:thornsberrysara/to-do-list.git/service-worker.js",
-    "static/css/main.23206704.chunk.css.map": "/git@github.com:thornsberrysara/to-do-list.git/static/css/main.23206704.chunk.css.map",
-    "static/js/2.f860dc33.chunk.js.LICENSE.txt": "/git@github.com:thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js.LICENSE.txt"
+    "main.css": "/thornsberrysara/to-do-list.git/static/css/main.23206704.chunk.css",
+    "main.js": "/thornsberrysara/to-do-list.git/static/js/main.cc18a382.chunk.js",
+    "main.js.map": "/thornsberrysara/to-do-list.git/static/js/main.cc18a382.chunk.js.map",
+    "runtime-main.js": "/thornsberrysara/to-do-list.git/static/js/runtime-main.834bdbc1.js",
+    "runtime-main.js.map": "/thornsberrysara/to-do-list.git/static/js/runtime-main.834bdbc1.js.map",
+    "static/js/2.f860dc33.chunk.js": "/thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js",
+    "static/js/2.f860dc33.chunk.js.map": "/thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js.map",
+    "index.html": "/thornsberrysara/to-do-list.git/index.html",
+    "precache-manifest.414e1dbdf9a97c59d413dadc34075ebc.js": "/thornsberrysara/to-do-list.git/precache-manifest.414e1dbdf9a97c59d413dadc34075ebc.js",
+    "service-worker.js": "/thornsberrysara/to-do-list.git/service-worker.js",
+    "static/css/main.23206704.chunk.css.map": "/thornsberrysara/to-do-list.git/static/css/main.23206704.chunk.css.map",
+    "static/js/2.f860dc33.chunk.js.LICENSE.txt": "/thornsberrysara/to-do-list.git/static/js/2.f860dc33.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6953aa6d.js",
+    "static/js/runtime-main.834bdbc1.js",
     "static/js/2.f860dc33.chunk.js",
     "static/css/main.23206704.chunk.css",
-    "static/js/main.2a8eccc5.chunk.js"
+    "static/js/main.cc18a382.chunk.js"
   ]
 }
