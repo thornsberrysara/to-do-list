@@ -6,7 +6,14 @@ function ListItems(props) {
     return (
       <div className="list" key={item.key}>
         <p>
-          {item.content}
+          <input
+            type="text"
+            id={item.key}
+            value={item.content}
+            onChange={e => {
+              props.setUpdate(e.target.value, item.key);
+            }}
+          />
           <span>
             <i
               className="fas fa-trash"

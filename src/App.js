@@ -1,6 +1,6 @@
 import React from "react";
-import './App.css';
-import ListItems from './ListItems';
+import "./App.css";
+import ListItems from "./ListItems";
 
 class App extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class App extends React.Component {
     this.handleInput = this.handleInput.bind(this);
     this.addItem = this.addItem.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
-
+    this.setUpdate = this.setUpdate.bind(this);
   }
   handleInput(e) {
     this.setState({
@@ -23,28 +23,38 @@ class App extends React.Component {
         content: e.target.value,
         key: Date.now()
       }
-    })
+    });
   }
   addItem(e) {
     e.preventDefault();
     const newItem = this.state.currentItem;
-    if(newItem.content !== '') {
+    if (newItem.content !== "") {
       const newItems = [...this.state.items, newItem];
       this.setState({
         items: newItems,
         currentItem: {
-          content: '',
-          key: ''
+          content: "",
+          key: ""
         }
-      })
+      });
     }
   }
   deleteItem(key) {
-    const filteredItems = this.state.items.filter(item => 
-      item.key!==key);
-      this.setState({
-        items:filteredItems
-      })
+    const filteredItems = this.state.items.filter(item => item.key !== key);
+    this.setState({
+      items: filteredItems
+    });
+  }
+  setUpdate(content, key) {
+    const items = this.state.items;
+    items.map(item => {
+      if (item.key === key) {
+        item.content = content;
+      }
+    });
+    this.setState({
+      items: items
+    });
   }
 
   render() {
@@ -60,8 +70,11 @@ class App extends React.Component {
             />
             <button type="submit">Add</button>
           </form>
-          <ListItems items={this.state.items}
-          deleteItem={this.deleteItem}/>
+          <ListItems
+            items={this.state.items}
+            deleteItem={this.deleteItem}
+            setUpdate={this.setUpdate}
+          />
         </header>
       </div>
     );

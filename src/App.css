@@ -11,6 +11,11 @@ i {
   right: 30px;
 }
 
+i:hover,
+button:hover {
+  cursor: pointer;
+}
+
 body {
   background-color: #fce8e4;
 }
@@ -26,6 +31,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+input {
+  background-color: transparent;
+  border: none;
 }
 
 #to-do-form input {
@@ -53,4 +63,10 @@ button {
   text-align: left;
   margin-top: 40px;
   margin-left: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    height: 100vh;
+  }
 }
