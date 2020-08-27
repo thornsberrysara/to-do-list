@@ -13,7 +13,7 @@ i {
 }
 
 i:hover {
-  color: rgb(228, 228, 228);
+  color: #e4e4e4;
 }
 
 i:hover,
@@ -43,6 +43,7 @@ input {
   border: none;
   width: 220px;
   font-size: 16px;
+  color: #282c34;
 }
 
 #to-do-form input {
