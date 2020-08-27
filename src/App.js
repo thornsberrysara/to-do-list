@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import ListItems from "./ListItems";
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
+import Theme from "./Theme";
 
 class App extends React.Component {
   constructor(props) {
@@ -60,10 +60,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <ThemeProvider theme={{ mode: 'dark' }}>
-        <>
-        <GlobalStyle />
       <div className="App">
+        <Theme />
         <header>
           <form id="to-do-form" onSubmit={this.addItem}>
             <input
@@ -81,38 +79,8 @@ class App extends React.Component {
           />
         </header>
       </div>
-      </>
-      </ThemeProvider>
     );
   }
 }
-
-const GlobalStyle = createGlobalStyle `
-* {
-  font-family: ${props => props.theme.mode === 'dark' ? 'monospace' : 'Thasadith'};
-}
-body {
-  background-color: ${props => props.theme.mode === 'dark' ? '#1f1f1f' : '#fce8e4'};
-}
-.App {
-  background-color: ${props => props.theme.mode === 'dark' ? '#111' : '#f7cbc2'};
-}
-input {
-  color: ${props => props.theme.mode === 'dark' ? '#39ff14' : '#282c34'};
-}
-#to-do-form input {
-  background-color: ${props => props.theme.mode === 'dark' ? '#1f1f1f' : '#fce8e4'};
-}
-button {
-  background-color: ${props => props.theme.mode === 'dark' ? '#39ff14' : '#fac43b'};
-  color: ${props => props.theme.mode === 'dark' ? '#111' : '#282c34'};
-}
-i {
-  color: ${props => props.theme.mode === 'dark' ? '#1f1f1f' : '#fce8e4'};
-}
-i:hover {
-  color: ${props => props.theme.mode === 'dark' ? '#333333' : '#e4e4e4'};
-}
-`
 
 export default App;
